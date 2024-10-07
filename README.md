@@ -31,4 +31,4 @@ The main CUDA kernel (`reduceRows`) performs the following tasks:
 You can compile the project using `nvcc` (NVIDIA's CUDA compiler):
 
 ```bash
-nvcc -o row_reduce row_reduce.cu
+nvcc -o row_reduce testReduce.cu
